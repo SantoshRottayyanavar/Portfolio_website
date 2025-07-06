@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantoshRottayyanavar_portfolio</title>
+    <link rel="icon" href="images/facicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="electronics_sales.css">
+    <script src="https://kit.fontawesome.com/2fb5adb165.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="Electronic_sales">
+    <div class="container">
+
+      <nav>
+        <img src="electronics_sales_images/electronics-logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="index.html#header">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="eltitle">
+        <h1>Electronics Sales Analysis</h1>
+
+      <div class="el-sub-title">
+        <p>Hover over the dashboard to explore interactive features.</p>
+      </div>
+      </div>
+
+      <!-- Power BI screenshot and link -->
+  <div class="powerbiWrapper">
+<a href="https://app.powerbi.com/links/E7ODmhdaO5?ctid=4534a0c7-6a84-4c54-b54c-d8d63521116e&pbi_source=linkShare" target="_blank">
+  <img src="electronics_sales_images/electronic_image1.png" alt="Power BI Preview" style="width: 100%; max-width: 1500px; height: 600px;">
+  <p>Click to open interactive Power BI dashboard</p>
+</a>
+</div>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+     function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
+
